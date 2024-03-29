@@ -133,7 +133,7 @@ ws.onopen = async () => {
             nome: nome,
             url: imagem
         }))
-    }, 50)
+    }, 100)
 }
 
 ws.onclose = async () => {
